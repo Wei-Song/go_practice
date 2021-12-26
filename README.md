@@ -11,3 +11,6 @@ go进阶训练营作业
 
 第三周作业
 作业地址：https://github.com/Wei-Song/go_practice/tree/master/src/week3/work
+
+第四周作业
+作业地址：https://github.com/Wei-Song/go_practice/tree/master/src/week4
