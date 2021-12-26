@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package shop.v1;
+option go_package = ".;v1";
+
+service UserServer {
+  rpc GetUserInfo(GetUserInfoRequest) returns (GetUserInfoResponse){}
+}
+
+message GetUserInfoRequest{
+}
+
+message GetUserInfoResponse{
+  string username = 1;
+  string city = 2;
+}
+
